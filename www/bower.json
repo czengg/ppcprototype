@@ -1,0 +1,21 @@
+{
+  "name": "ppcPrototype",
+  "version": "0.0.1",
+  "authors": [
+    "czengg"
+  ],
+  "description": "web app prototype",
+  "main": "index.html",
+  "keywords": [
+    "application"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.3.14",
+    "angular-material": "~0.8.3"
+  }
+}
