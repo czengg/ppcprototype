@@ -21,6 +21,8 @@ var all = {
   // Server port
   port: process.env.PORT || 9000,
 
+  ip: '0.0.0.0',
+
   // Secret for session, you will want to change this and make it an environment variable
   secrets: {
     session: 'ppcprototype-secret'

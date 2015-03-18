@@ -1,0 +1,18 @@
+<div class="overview">
+  <md-toolbar md-scroll-shrink>
+    <div class="md-toolbar-tools">
+      <h3>
+        <span>TESTER</span>
+      </h3>
+    </div>
+  </md-toolbar>
+  <md-content>
+    <md-list>
+      <md-item ng-repeat="item in items" class="list-item">
+        <md-item-content>
+          <md-button ng-click="send(item.id)">{{item.title}}</md-button>
+        </md-item-content>
+      </md-item>
+    </md-list>
+  </md-content>
+</div>
