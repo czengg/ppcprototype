@@ -1,0 +1,33 @@
+<div class="overview">
+  <md-toolbar md-scroll-shrink>
+    <div class="md-toolbar-tools">
+      <h3>
+        <span>Overview</span>
+      </h3>
+    </div>
+  </md-toolbar>
+  <md-content>
+    <md-tabs md-selected="selectedIndex" flex>
+       <md-tab label="List">
+        <div layout="column" layout-align="space-around center">
+          <md-content class="overview-content">
+            <md-list>
+              <md-item ng-repeat="item in items" class="list-item">
+                <md-item-content>
+                  <md-button class="md-primary" ng-href="/#/content">{{item.title}}</md-button>
+                </md-item-content>
+              </md-item>
+            </md-list>
+          </md-content>
+        </div>
+       </md-tab>
+       <md-tab label="Map">
+        <div layout="column" layout-align="space-around center">
+          <div class="image-container">
+            <img src="images/map.png">
+          </div>
+        </div>
+       </md-tab>
+    </md-tabs>
+  </md-content>
+</div>
