@@ -6,6 +6,30 @@
     padding: 0.2em 0;
 }
 
-h1 {
-  font-size: 160px;
+.no-margin {
+  margin: 0;
+}
+
+.welcome, .location {
+  top: 20%;
+  position: absolute;
+  left: 10%;
+}
+
+.welcome .button, .location .button {
+  margin-top: 50%;
+  color: #259b24;
+}
+
+md-item-content {
+  padding: 10px;
+  /*border-bottom: 1px solid #D3D3D3;*/
+}
+
+.overview-content {
+  width: 90%;
+}
+
+.image-container img {
+  width: 100%;
 }

@@ -4,10 +4,15 @@ var app = angular.module('ppcprototypeApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
+  'ngMaterial',
   'btford.socket-io',
   'ui.router']);
 
-app.config(function($stateProvider, $urlRouterProvider) {
+app.config(function($stateProvider, $urlRouterProvider, $mdThemingProvider) {
+
+  $mdThemingProvider.theme('default')
+    .primaryPalette('green')
+    .accentPalette('blue-grey');
 
   $urlRouterProvider.otherwise("/welcome");
 
@@ -19,11 +24,13 @@ app.config(function($stateProvider, $urlRouterProvider) {
     })
     .state('location', {
       url: "/location",
-      templateUrl: "templates/location.html"
+      templateUrl: "templates/location.html",
+      controller: 'LocationCtrl'
     })
     .state('overview', {
       url: "/overview",
-      templateUrl: "templates/overview.html"
+      templateUrl: "templates/overview.html",
+      controller: 'OverviewCtrl'
     })
     .state('content', {
       url: "/content",
