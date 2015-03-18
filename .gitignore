@@ -9,6 +9,10 @@ pids
 *.pid
 *.seed
 
+node_modules
+
+.sass-cache
 .tmp
+
 
 bower_components
