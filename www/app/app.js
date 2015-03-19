@@ -19,8 +19,7 @@ app.config(function($stateProvider, $urlRouterProvider, $mdThemingProvider) {
   $stateProvider
     .state('welcome', {
       url: "/welcome",
-      templateUrl: "templates/welcome.html",
-      controller: 'TestCtrl'
+      templateUrl: "templates/welcome.html"
     })
     .state('location', {
       url: "/location",
@@ -33,8 +32,9 @@ app.config(function($stateProvider, $urlRouterProvider, $mdThemingProvider) {
       controller: 'OverviewCtrl'
     })
     .state('content', {
-      url: "/content",
-      templateUrl: "templates/content.html"
+      url: "/content/:id",
+      templateUrl: "templates/content.html",
+      controller: 'ContentCtrl'
     })
     .state('congratulations', {
       url: "/congratulations",
@@ -42,6 +42,7 @@ app.config(function($stateProvider, $urlRouterProvider, $mdThemingProvider) {
     })
     .state('tester', {
       url: "/tester",
-      templateUrl: "templates/tester.html"
+      templateUrl: "templates/tester.html",
+      controller: 'TesterCtrl'
     });
 });

@@ -1,9 +1,16 @@
 
 angular.module('ppcprototypeApp')
 
-.controller('TestCtrl', [ '$scope', 'ContentFactory', function ($scope, ContentFactory) {
-  console.log('TestCtrl');
-  console.log(ContentFactory);
+.controller('TesterCtrl', [ '$scope', 'ContentFactory', '$http', function ($scope, ContentFactory, $http) {
+
+  $scope.items = ContentFactory;
+
+  $scope.send = function (_id) {
+    $http.post('/api/send/', {_id: _id}).success(function (response) {
+      console.log(response);
+    });
+  };
+
 }])
 
 .controller('LocationCtrl', [ '$scope', '$mdDialog', '$location', function ($scope, $mdDialog, $location) {
@@ -19,6 +26,16 @@ angular.module('ppcprototypeApp')
   };
 }])
 
-.controller('OverviewCtrl', [ '$scope', 'ContentFactory', function ($scope, ContentFactory) {
+.controller('OverviewCtrl', [ '$scope', 'ContentFactory', 'Notification', function ($scope, ContentFactory, Notification) {
   $scope.items = ContentFactory;
-}]);
+
+}])
+
+.controller('ContentCtrl', [ '$scope', '$stateParams', 'ContentFactory', 'Notification',
+  function ($scope, $stateParams, ContentFactory, Notification) {
+
+  $scope.content = ContentFactory[$stateParams.id - 1];
+
+}])
+
+;
