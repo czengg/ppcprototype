@@ -9,13 +9,13 @@ angular.module('ppcprototypeApp')
       id: 1,
       title: 'Bathroom',
       content: 'The faucets and toilets in the bathroom are fed by grey water from the underground cistern. The water is not potable, but works perfectly fine for uses like these. Additionally, the low-flow faucets and toilet flushers conserve water so that as little as possible is wasted.',
-      img: 'images/myimg.jpg'
+      img: 'images/bathroom.jpg'
     },
     {
       id: 2,
       title: 'Solar panels',
       content: 'Up above your head, this arch is outfitted with solar panels that are used to power the building, and provide you with some shade.',
-      img: 'images/myimg.jpg'
+      img: 'images/solarpanels.jpg'
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ angular.module('ppcprototypeApp')
       id: 4,
       title: 'Runoff of solar panels',
       content: 'Any water runoff from the solar panel roof that the rain barrels can’t capture or hold is caught and stored by an underground water cistern. The water that it captures is used in the restrooms in Newell Simon Hall in the sinks and toilets.',
-      img: 'images/myimg.jpg'
+      img: 'images/watercistern.jpg'
     },
     {
       id: 5,
@@ -51,13 +51,13 @@ angular.module('ppcprototypeApp')
       id: 8,
       title: 'Water veil',
       content: 'The water veil captures the runoff water from the north face of the building and drops off the roof of the building in a sheet. It then flows along the front of the building and then behind the building. On rainy days, the water veil mimics the naturally occurring waterfall. There is a walkway behind it so that you can walk behind the waterfall.',
-      img: 'images/myimg.jpg'
+      img: 'images/waterveil.jpg'
     },
     {
       id: 9,
       title: 'Slavery to freedom garden',
       content: 'This garden features different plants from different parts of Africa as well as different vegetables that can be grown in an ordinary house garden.',
-    img: 'images/myimg.jpg'
+    img: 'images/slavery.jpg'
     }
   ];
 
