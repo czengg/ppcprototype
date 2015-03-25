@@ -21,7 +21,7 @@ angular.module('ppcprototypeApp')
       id: 3,
       title: 'Rain barrels',
       content: 'Rain barrels are used to catch any runoff from the solar panels when it’s raining. Water stored here is used to water the vegetable garden and the slavery to freedom garden, which are more water intensive than the native landscape. </br> Rain barrels are also useful in residential homes. They capture water from roof gutters and provide you with water to feed any plants you may have.',
-      img: 'images/myimg.jpg'
+      img: 'images/rainbarrel.jpg'
     },
     {
       id: 4,
@@ -33,19 +33,19 @@ angular.module('ppcprototypeApp')
       id: 5,
       title: 'Permeable pavement',
       content: 'Most asphalts are too dense for moisture from rainfall to soak through. This asphalt is porous enough for water to percolate through to help recharge the groundwater of the area.',
-      img: 'images/myimg.jpg'
+      img: 'images/pavement.jpg'
     },
     {
       id: 6,
       title: 'Native plants',
-      content: 'All landscaping around the Newell Simon building is full of native, low resource consuming plants. In addition to being beautiful, they also do not exacerbate problems caused by invasive, non-native plants such as erosion or unhealthy dominance of a single plant species.',
-      img: 'images/myimg.jpg'
+      content: 'All landscaping around the Newell Simon building is full of native, low resource consuming plants. In addition to being beautiful, they also do not exacerbate problems caused by invasive, non-native plants such as erosion or unhealthy dominance of a single plant species.</br>These plants are an easy addition to any garden. Native plants do not require more maintenance than others plants yet also promote healthy growth that support the surrounding environment.',
+      img: 'images/plants.JPG'
     },
     {
       id: 7,
       title: 'Water treatment',
       content: 'Below the atrium, there is water treatment equipment that treats blackwater. Blackwater is any water that comes from a sink, a toilet, or a shower. The equipment treats the water and the water can then be dispersed in a slow and natural way outdoors to be taken up by trees.',
-      img: 'images/myimg.jpg'
+      img: 'images/watertreatment.jpg'
     },
     {
       id: 8,
@@ -56,7 +56,7 @@ angular.module('ppcprototypeApp')
     {
       id: 9,
       title: 'Slavery to freedom garden',
-      content: 'This garden features different plants from different parts of Africa as well as different vegetables that can be grown in an ordinary house garden.',
+      content: 'This garden features different plants from different parts of Africa as well as different vegetables that can be grown in an ordinary house garden.</br>Growing vegetables in your garden is simple and yields great rewards. Scallions and garlic grow at a fast rate and can be used in many dishes. Potatoes are also a very widely used root vegetable that are easy to take care of.',
     img: 'images/slavery.jpg'
     }
   ];
