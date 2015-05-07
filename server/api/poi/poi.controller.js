@@ -16,7 +16,7 @@ var pois = [
       id: 1,
       title: 'Rain Barrels',
       content: 'Rain barrels are used to capture water runoff from the solar panels above them during a storm, which are then used to water the gardens on the site, which need to drink more than the native landscape. Rain barrels are also useful in residential homes. The greywater that they capture is highly oxygenated and is better for plants and soil than tap water, which is diluted with chemicals that make plants less drought-tolerant',
-      img: '/images/rainbarrel.jpg',
+      img: '/images/rainbarrel2.jpg',
       beaconMajor: 17149,
       latitude: 40.444832,
       longitude: -79.948051
@@ -27,8 +27,8 @@ var pois = [
       content: 'An underground water cistern is used to catch and hold rainwater to then be used in the buildings around you. It’s like an enormous water tank, and can hold as much as 1000 gallons of water! These are a great way to conserve water, and can be used for things like sinks, showers, and toilets. ',
       img: '/images/2.png',
       beaconMajor: 42,
-      latitude: 40.444820,
-      longitude: -79.948735
+      latitude: 40.444949,
+      longitude: -79.948918
     },
     // {
     //   id: 3,
