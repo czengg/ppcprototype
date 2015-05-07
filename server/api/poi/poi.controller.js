@@ -16,7 +16,7 @@ var pois = [
       id: 1,
       title: 'Rain Barrels',
       content: 'Rain barrels are used to capture water runoff from the solar panels above them during a storm, which are then used to water the gardens on the site, which need to drink more than the native landscape. Rain barrels are also useful in residential homes. The greywater that they capture is highly oxygenated and is better for plants and soil than tap water, which is diluted with chemicals that make plants less drought-tolerant',
-      img: '/images/rainbarrel.png',
+      img: '/images/rainbarrel.jpg',
       beaconMajor: 17149,
       latitude: 40.444832,
       longitude: -79.948051
@@ -47,7 +47,7 @@ var pois = [
       beaconMajor: -1,
       latitude: -1,
       longitude: -1
-    }
+    },
     {
       id: 5,
       title: 'Permeable pavement',
