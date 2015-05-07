@@ -30,15 +30,15 @@ var pois = [
       latitude: 40.444820,
       longitude: -79.948735
     },
-    {
-      id: 3,
-      title: 'Judith A Resnik Memorial Statue',
-      content: 'This statue is dedicated to Judith Resnik, who was one of the first women ever to become an astronaut, and who went to school right here at CMU. She died aboard the Challenger while on a mission in 1986, but left behind a legacy as an inspirational and brilliant engineer.',
-      img: '/images/3.png',
-      beaconMajor: -1,
-      latitude: -1,
-      longitude: -1
-    },
+    // {
+    //   id: 3,
+    //   title: 'Judith A Resnik Memorial Statue',
+    //   content: 'This statue is dedicated to Judith Resnik, who was one of the first women ever to become an astronaut, and who went to school right here at CMU. She died aboard the Challenger while on a mission in 1986, but left behind a legacy as an inspirational and brilliant engineer.',
+    //   img: '/images/3.png',
+    //   beaconMajor: -1,
+    //   latitude: -1,
+    //   longitude: -1
+    // },
     {
       id: 4,
       title: 'Robot Raceway',
